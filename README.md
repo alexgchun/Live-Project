@@ -37,7 +37,7 @@ This Modal collects user data (name, email, phone) and sends it to formspree.io,
             </div>
 
 
-          </form>
+          </form><
 ## Open Weather Map API
 For story 9 and 10, I was tasked with creating a API that gets the user's coordinates by using the built-in JS geolocation, and requests data from the API website in the form of an object. Then I used a fetch function to input the latitude and longitude.
 >const app = {
@@ -137,7 +137,7 @@ For story 9 and 10, I was tasked with creating a API that gets the user's coordi
         .join(' ');
     },
   };
-  
+  <
 
 #Other Skills
 responsive ness media queries
