@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" /> 
+
+        <title>Bouldering Site</title>
+        <!-- styles -->
+        <link rel="stylesheet" href="static/stylesheet.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    </head>
+    <body>
+          
+      
+
+
+
+       
+       <main>
+       
+        <!--NAV AND BACKGROUND IMAGE-->
+
+        <!-- ADD FORM HERE, TRANSPARENT-->
+
+        <div class="front" id="home">
+          <div class="top">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="#">Bouldering 101</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active fs-5" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-5" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-5" href="#req">Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-5" href="#you">Near you</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+<!--make container 100% width-->
+          <div class="container-fluid img-columns"> 
+            <div class="row rose">
+              <div class="col">
+                <!-- 
+                  Bouldering
+                  __________
+
+                  dummy text
+
+                  maybe button
+
+                  ****responsive
+                -->
+                <div class="info">
+                  <div class="info2">
+                    <h1 class="heading">Bouldering</h1>
+                    <hr class="hr">
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Sign Up
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+
+          <img  class="responsive" src="static/images/copy1.jpg" >
+<!--ask about how to make the whole div same height as img class, responsive bassically-->
+          
+
+        </div>
+
+      
+     
+
+
+<!-- ABOUT SECTION -->
+
+<div class="container about" id="about">
+  
+  <div class="row">
+    <div class="col-md-8">
+      <h1>What is Bouldering?</h1>
+      <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="col-md-4">
+      <img class="about-img" src="./static/images/pexels-allan-mas-5383503.jpg" alt="">
+    </div>
+  </div>
+</div>  
+
+
+<!--CARSOUSEL SECTION-->
+
+
+<div class="container about" id="req">
+ 
+  <div class="row">
+    <div class="col-md-4 about">
+      <h1>
+        What is needed?
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="col-md-8">
+
+      <div id="unique" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#unique" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#unique" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#unique" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./static/images/chalk.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Chalk</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./static/images/shoes.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Climbing Shoes</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./static/images/form.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Proper Form</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#unique" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#unique" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- CARD SECTION -->
+
+<div class="container about">
+  <div class="row justify-content-evenly">
+    <div class="col">
+
+      <div class="card" style="width: 18rem;">
+        <img src="./static/images/one.jpg" class="card-img-top" alt="...">
+        <div class="card-body" id="card-body">
+          <h5 class="card-title">Beginner: V0 – V2</h5>
+          <p class="card-text">At this stage, you have most likely only been bouldering for a few months. Progress is relatively quick, basic technique is easy to implement. Holds are big, and the problems are easy to read.</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col">
+      
+      <div class="card" style="width: 18rem;">
+        <img src="./static/images/three.jpg" class="card-img-top" alt="...">
+        <div class="card-body" id="card-body2">
+          <h5 class="card-title">Intermediate: V3 – V5</h5>
+          <p class="card-text">The problems in this grade range are starting to require good finger strength and technique. Progression is still pretty quick at this level and V4 is attainable fairly quickly with regular training.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+     
+      <div class="card " style="width: 18rem;">
+        <img src="./static/images/two.jpg" class="card-img-top" alt="...">
+        <div class="card-body" id="card-body3">
+          <h5 class="card-title">Advanced: V6 – V8</h5>
+          <p class="card-text">Starting to hit the upper graded problems in the gym. You will only attain this level after a few years of bouldering at least. Progression between grades is painstakingly slow at this level.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--MODAL-->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form
+            action="https://formspree.io/f/xjvlbddl"
+            method="POST"
+          >
+        <div class="input-group mb-3">
+          
+          <input type="text" name="Name" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" required>
+        </div>
+        <div class="input-group mb-3">
+          
+          <input type="email" name="Email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" required>
+        </div>
+        <div class="input-group mb-3">
+          
+          <input type="tel" name="Phone" class="form-control" placeholder="Phone Number" aria-label="Username" aria-describedby="basic-addon1" required>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" name="Terms" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            I accept the Terms of Use & Privacy Policy
+          </label>
+          
+          </div>
+        <div class="form-check">
+          <input class="form-check-input" name="Send Emails" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            I agree to receiving emails
+          </label>
+          </div>
+            <div class="send-btn">
+            <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+
+
+          </form>
+         
+          
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---TO TOP BUTTON-->
+
+<a href="#" class="to-top">
+  To Top
+</a>
+
+
+
+
+<!--WEATHER API-->
+<div id="you">
+  <header class="container about">
+    <h1>OpenWeatherMap.org API</h1>
+  </header>
+  <nav class="container">
+    <div class="row align-items-center py-2">
+      <div class="input-group col-sm">
+        <span class="input-group-text" id="basic-addon1">Lat</span>
+        <input
+          type="text"
+          class="form-control"
+          inputmode="numeric"
+          id="latitude"
+          placeholder="latitude"
+          aria-label="latitude"
+          aria-describedby="basic-addon1"
+          value="42.98"
+        />
+      </div>
+      <div class="input-group col-sm">
+        <span class="input-group-text" id="basic-addon1">Lon</span>
+        <input
+          type="text"
+          class="form-control"
+          inputmode="numeric"
+          id="longitude"
+          placeholder="longitude"
+          aria-label="longitude"
+          aria-describedby="basic-addon1"
+          value="-81.23"
+        />
+      </div>
+    </div>
+    <div class="row align-items-center py-2">
+      <div class="col-auto me-auto">
+        <button id="btnGet" type="button" class="btn btn-primary mb-3">
+          Get Weather
+        </button>
+        <button id="btnCurrent" type="button" class="btn btn-primary mb-3">
+          Use Current Location
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h2>Weather</h2>
+    <!-- results for weather data -->
+    <div class="weather row gx-2">
+      <div class="col">
+        <div class="card" style="width: 30vw">
+          <h5 class="card-title p-2">Date</h5>
+          <img
+            src="http://openweathermap.org/img/wn/10d@4x.png"
+            class="card-img-top"
+            alt="Weather description"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Weather Label</h3>
+            <p class="card-text">High Temp Low Temp</p>
+            <p class="card-text">HighFeels like</p>
+            <p class="card-text">Pressure</p>
+            <p class="card-text">Humidty</p>
+            <p class="card-text">UV Index</p>
+            <p class="card-text">Precipitation</p>
+            <p class="card-text">Dew Point</p>
+            <p class="card-text">Wind speed and direction</p>
+            <p class="card-text">Sunrise</p>
+            <p class="card-text">Sunset</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- LIGHT AND DARK TOGGLE-->
+<div>
+  <span>Dark Mode</span>
+  <input type="checkbox" class="checkbox" id="checkbox">
+    <label for="checkbox" class="label">
+      
+      <div class="ball"></div>
+    </label><!--linking id for input -->
+</div>
+
+
+       </main>
+
+
+       <footer>
+        
+        <p >Author: Alex 2021 alexgchun@gmail.com</p>
+       </footer> 
+        <!-- javascript -->
+        <script src="static/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+<!-- 
+
+
+
+*****
+current problems
+
+
+
+
+api cards background
+
+
+
+-->
